@@ -1,4 +1,8 @@
 # ysyr-import-go
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized-mobile.png">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
+</picture>
 
 Zero-dependency CSV import with partial success for Go. Valid rows are accepted, broken rows are
 collected with their line number, column and reason, and the result can be returned to the user as
