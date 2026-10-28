@@ -80,9 +80,10 @@ func parseCSV(data string, o parseOptions) ([]record, error) {
 						closed = true
 						break
 					}
-					if c == '\n' {
+					switch c {
+					case '\n':
 						line++
-					} else if c == '\r' {
+					case '\r':
 						line++
 						if i+1 < n && src[i+1] == '\n' {
 							i++
